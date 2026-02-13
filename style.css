@@ -79,11 +79,13 @@ li {
   cursor: pointer;
 }
 
-ul li:hover {
+ul li:hover,
+ul li:active {
   background-color: #c5f82a;
 }
 
-ul li:hover a {
+ul li:hover a,
+ul li:active a {
   color: #1f1f1f;
 }
 
